@@ -36,7 +36,6 @@ const UsersList = () => {
 
 
   const filterList = (e) => {
-    // console.log(e.target.name);
 
     let btnTargetName = e.target.name
 
@@ -61,10 +60,7 @@ const UsersList = () => {
       filtering = users
     }
 
-
     setFilteredUsers(filtering)
-
-
   }
 
 
